@@ -1,0 +1,125 @@
+/* ImageSlider.css */
+
+.image-slider {
+  position: relative;
+  width: 200%;
+  max-height: 700px;
+  max-width: 1200px; /* You can adjust the max-width as needed */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  margin-top: 80px;
+  height: 550px;
+  display: block;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-slider img.fade {
+  opacity: 0;
+}
+/* ThreeBoxes.css */
+.box-container {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly around each box */
+  align-items: center; /* Aligns items vertically in the center */
+  padding: 10px;
+}
+
+.box {
+  background-color: rgb(158, 218, 241);
+  border: 2px solid rgb(243, 243, 243);
+  padding: 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  flex: 1; /* Allows boxes to grow and shrink equally */
+  text-align: center;
+  max-width: 250px; /* Optional: set a max width for each box */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visual effect */
+  transition: transform 0.3s; /* Optional: add a transition effect */
+  height: 70px;
+}
+
+.box:hover {
+  transform: scale(1.05); /* Optional: scale up on hover */
+}
+
+.home-b{
+
+}
+body{
+  overflow-y: scroll;
+  
+}
+.wel{
+  text-align: center;
+  font-size: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.ser{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+.services {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly around each box */
+  align-items: center; /* Aligns items vertically in the center */
+  padding: 10px;
+}
+
+.servi {
+  background-color: rgb(254, 255, 255);
+  border: 2px solid rgb(243, 243, 243);
+  padding: 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  flex: 1; /* Allows boxes to grow and shrink equally */
+  text-align: center;
+  max-width: 250px; /* Optional: set a max width for each box */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for better visual effect */
+  transition: transform 0.3s; /* Optional: add a transition effect */
+  height: 350px;
+  border-radius: 10px;
+}
+.servi:hover {
+  transform: scale(1.05); /* Optional: scale up on hover */
+}
+.servi p{
+  color: grey;  
+  text-align: justify;
+  font-size: 17px;
+  
+}
+.servi img{
+  height: 100px;
+  width: 100px;
+}
+.wed
+{
+  font-size: 50px;
+  color: rgb(241, 148, 164);
+  margin-left: 600px;
+}
+.wed p{
+  color: black;
+  /* text-align: justify; */
+  margin-left: 30px;
+  font-size: 25px;
+}
+.wedimg
+{
+  height: 10px;
+  width: -10px;
+}
+.wedimg img{
+  width:500px;
+  margin-left:30px;
+  margin-right:50px
+}
