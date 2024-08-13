@@ -1,0 +1,69 @@
+/* Ensure the container takes the full width and height */
+.image-container {
+  width: 100%;
+  height: auto;
+  /* max-width: 100%; Prevent overflow */
+  margin: 0 auto; /* Center the container */
+  margin-top: 50px;
+}
+
+.wedd img {
+  margin-left: 120px;
+  width: 80%;
+  height: 750px;
+  /* object-fit: cover; Ensure the image scales properly */
+  /* display: block; Remove any extra space below the image */
+}
+
+.para {
+  margin: 0 10px; /* Adjust margins for the paragraph */
+  text-align: center;
+  font-size: larger;
+  padding: 20px; /* Add padding for better readability */
+}
+
+.para p {
+  margin-bottom: 20px; /* Add space between paragraphs */
+}
+
+.para h2 {
+  font-size: 2em; /* Adjust the heading size */
+  margin-bottom: 20px;
+}
+
+/* Adjustments for ul */
+.para ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+.para li {
+  margin-bottom: 10px; /* Space out list items */
+}
+.column {
+  float: left;
+  width: 20px;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column img{
+  width: 100%;
+  height: 500px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 10px;
+}
+.para li{
+  text-align: center;
+}

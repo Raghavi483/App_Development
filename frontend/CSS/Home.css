@@ -1,0 +1,143 @@
+.image-slider {
+  position: relative;
+  width: 100%;
+  max-height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 100%;
+  margin-top: 80px;
+  height: 550px;
+  display: block;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-slider img.fade {
+  opacity: 0;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.box {
+  background-color: rgb(158, 218, 241);
+  border: 2px solid rgb(243, 243, 243);
+  padding: 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex: 1;
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 70px;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.wel {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ser {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.servi {
+  background-color: rgb(254, 255, 255);
+  border: 2px solid rgb(243, 243, 243);
+  padding: 20px;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex: 1 1 calc(25% - 20px);
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.servi:hover {
+  transform: scale(1.05);
+}
+
+.servi p {
+  color: grey;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.servi img {
+  height: 100px;
+  width: 100px;
+}
+
+.wed {
+  font-size: 50px;
+  color: rgb(241, 148, 164);
+  margin-left: 600px;
+}
+
+.wed p {
+  color: black;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.wedimg img {
+  width: 500px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.home-b {}
+/* Home.css */
+.gallery {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.gallery h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  width: 200px;
+  margin: 10px;
+}

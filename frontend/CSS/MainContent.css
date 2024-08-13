@@ -1,0 +1,23 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #222;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .text-content {
+    width: 50%;
+    font-size: larger;
+  }
+  
+  .image-content {
+    width: 45%;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: auto;
+  }
+  

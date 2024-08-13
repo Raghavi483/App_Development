@@ -1,0 +1,113 @@
+/* Payment.css */
+
+.payment-page {
+    max-width: 600px;
+    margin-top: 100px;
+    margin: 50px auto;
+    padding: 200px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-page h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+   margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  
+  .payment-page p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  .payment-form label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .payment-form input[type="text"],
+  .payment-form input[type="email"],
+  .payment-form input[type="tel"],
+  .payment-form select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .payment-form input[type="text"]:focus,
+  .payment-form input[type="email"]:focus,
+  .payment-form input[type="tel"]:focus,
+  .payment-form select:focus {
+    border-color: #3399cc;
+  }
+  
+  .payment-form select {
+    padding-right: 10px;
+  }
+  
+  .payment-button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #3399cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button:hover {
+    background-color: #287a9b;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Additional Styles */
+  .payment-page p {
+    font-weight: 300;
+  }
+  
+  .payment-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .payment-form input {
+    color: #333;
+  }
+  
+  .payment-form select {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .payment-page h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+  }
+  
+  .payment-page p {
+    font-family: 'Arial', sans-serif;
+  }
+  

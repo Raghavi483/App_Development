@@ -1,0 +1,79 @@
+/* Ensure the container takes the full width and height */
+.image-container {
+    width: 100%;
+    height: auto;
+    /* max-width: 100%; Prevent overflow */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .wedd img {
+    margin-top: 80px;
+    margin-left: 120px;
+    width: 80%;
+    height: 500px;
+    /* object-fit: cover; Ensure the image scales properly */
+    /* display: block; Remove any extra space below the image */
+  }
+  .wedd .overlay-text {
+    position: absolute;
+    top: 50%; /* Position the text in the middle of the image */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; /* White text color for contrast */
+    font-size: 3em; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+  }
+  
+  
+  .para {
+    margin: 0 10px; /* Adjust margins for the paragraph */
+    text-align: center;
+    font-size: larger;
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  .para p {
+    margin-bottom: 20px; /* Add space between paragraphs */
+  }
+  
+  .para h2 {
+    font-size: 2em; /* Adjust the heading size */
+    margin-bottom: 20px;
+  }
+  
+  /* Adjustments for ul */
+  .para ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .para li {
+    margin-bottom: 10px; /* Space out list items */
+  }
+  .column {
+    float: left;
+    width: 20px;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column img{
+    width: 100%;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .para li{
+    text-align: center;
+  }

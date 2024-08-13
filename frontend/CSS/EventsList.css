@@ -1,0 +1,95 @@
+/* EventsList.css */
+
+.events-container {
+  width: 84%;
+  margin-left:157px;
+  /* margin: 20px auto; */
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* EventsList.css */
+
+.search-bar {
+  width: 300px; /* Reduced width */
+  padding: 5px;  /* Reduced padding */
+  font-size: 14px; /* Reduced font size */
+  border: 1px solid #e03030;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.search-bar::placeholder {
+  color: #627ac9;
+  font-size: 14px; /* Adjust the placeholder font size */
+}
+
+/* Keep the rest of your styles */
+
+.events-container:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.events-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.events-table th,
+.events-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.events-table th {
+  background-color: #4e97e4;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.events-table td {
+  color: #666666;
+  font-size: 15px;
+}
+
+.events-table tr:hover td {
+  background-color: #f7f7f7;
+  transition: background-color 0.2s ease-in;
+}
+
+.events-table td:first-child,
+.events-table th:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.events-table td:last-child,
+.events-table th:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.no-events {
+  text-align: center;
+  color: #888;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 50px;
+}
